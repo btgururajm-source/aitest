@@ -1,6 +1,6 @@
 public interface Cricket {
-    void bat(String runs);
-    void bowl(int overs);
-    void field(String position);
+    public void bat(String runs);
+    public void bowl(int overs);
+    public void field(String position);
 }
 
