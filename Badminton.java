@@ -1,5 +1,5 @@
 public interface Badminton {
-    void serve(String serveType);
-    void smash(int speed);
-    void rally(int durationInSeconds);
+    public void serve(String serveType);
+    public void smash(int speed);
+    public void rally(int durationInSeconds);
 }
